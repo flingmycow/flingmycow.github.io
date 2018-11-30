@@ -1,25 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Inconsolata|Raleway|Comfortaa|Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Inconsolata|Raleway|Comfortaa|Roboto+Mono|Josefin Sans');
 
-/* GLOBAL STYLES */
 body {
   background: #fceaf8;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Comfortaa;
-  /*justify-content: center;*/
+  justify-content: center;
+  font-family: Josefin Sans;
 }
 
-#fumi_photo { 
-        border: 1px solid purple;
-        height: 300px;
-        width: 300px;
+#welcome_here{
+  font-size: 30px;
+  margin-bottom: -30px;
+}
+
+#first {
+  display: flex;
+}
+
+#first_photo {
+  border: 1px solid pink;
+  height: 450px;
+  width: 600px;
+  background-size: cover;
+  background-position: left;
+  background-image: url('http://i63.tinypic.com/f1momf.jpg');
+  flex: initial;
+  margin: 30px;
+}
+
+#about_me {
+  margin 30px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: -10px 5px 2px 2px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    #first_photo { 
+        border: 1px solid pink;
+        height: 450px;
+        width: 400px;
         background-size: cover;
         background-position: center;
+        /*background-image: url('http://i66.tinypic.com/1dzeq.jpg');*/
         background-image: url('http://i66.tinypic.com/2qdbno6.jpg');
-        margin: 10px;
+        margin: 25px;
     }
-
-#fumi_photo:hover {
-    opacity: 0.7;
 }
