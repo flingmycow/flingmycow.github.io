@@ -29,6 +29,10 @@ body {
   margin: 30px;
 }
 
+#first_photo:hover {
+  opacity: 0.7;
+}
+
 #about_me {
   margin 30px;
 }
